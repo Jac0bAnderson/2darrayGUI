@@ -13,12 +13,18 @@ private SpringLayout baseLayout;
 private TwoDController baseController;
 private JTable arrayTable;
 private JScrollPane arrayScroll;
+private JTextField rowText;
+private JTextField colText;
+private JButton subButton;
 
 
 public TwoDPanel(TwoDController baseController)
 {
 this.baseController = baseController;
 baseLayout = new SpringLayout();
+rowText = new JTextField("");
+rowcol = new JTextField("");
+subButton = new JButton("Click to Submit");
 
 
 
@@ -56,6 +62,9 @@ setupListeners();
 
 private void setupPanel()
 {
+	this.add(subButton);
+	this.add(rowText);
+	this.add(colText);
 	this.add(arrayScroll);
 	this.setLayout(baseLayout);
 	
