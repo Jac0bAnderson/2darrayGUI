@@ -22,11 +22,11 @@ baseLayout = new SpringLayout();
 
 
 
-String [] nameCol = {"Name", "Last Name", "Gender"};
+String [] nameCol = {"Drink", "Color", "Calories"};
 Object [] [] info ={
-		{"Joe", "Smith" ,"Male"},
-		{"John", "Banks", "male"},
-		{"Carol", "Thomas", "Female"},
+		{"Monster Energy", "Green" ,"101"},
+		{"Monster Energy", "Green", "101"},
+		{"Monster Energy", "Green", "101"},
 		{"", "", ""},
 		{"", "", ""},
 		{"", "", ""},
