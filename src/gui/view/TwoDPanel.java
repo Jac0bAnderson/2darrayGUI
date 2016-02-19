@@ -25,8 +25,8 @@ baseLayout = new SpringLayout();
 String [] nameCol = {"Drink", "Color", "Calories"};
 Object [] [] info ={
 		{"Monster Energy", "Green" ,"101"},
-		{"Monster Energy", "Green", "101"},
-		{"Monster Energy", "Green", "101"},
+		{"Coke", "Red", "182"},
+		{"Pepsi", "Blue", "150"},
 		{"", "", ""},
 		{"", "", ""},
 		{"", "", ""},
