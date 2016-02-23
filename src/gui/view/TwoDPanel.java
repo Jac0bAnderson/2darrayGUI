@@ -23,7 +23,7 @@ public TwoDPanel(TwoDController baseController)
 this.baseController = baseController;
 baseLayout = new SpringLayout();
 rowText = new JTextField("");
-rowcol = new JTextField("");
+colText = new JTextField("");
 subButton = new JButton("Click to Submit");
 
 
